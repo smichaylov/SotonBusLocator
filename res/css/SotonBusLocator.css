@@ -1,0 +1,16 @@
+a.menu-item {
+    display: block;
+    padding: 1em;
+	margin: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #768395;
+    background: -webkit-linear-gradient(top, #fff, #ddd);
+}
+
+.search-panel {
+    z-index: 10000;
+    background: url(../images/search-panel-bg.png) repeat;
+}

@@ -1,0 +1,1 @@
+SotonBusLocator.views.HomeDestination = Ext.extend(Ext.Panel, {});Ext.reg('HomeDestination', SotonBusLocator.views.HomeDestination);

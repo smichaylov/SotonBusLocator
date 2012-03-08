@@ -1,0 +1,1 @@
+Ext.regController('GMap', {     index: function()	{		if ( ! this.gmapView)		{			this.gmapView = this.render({				xtype: 'SearchIndex',			});		}				var gmap = new Ext.Map({			mapOptions: {				zoom: 5,				mapTypeId: google.maps.MapTypeId.ROADMAP,				center: new google.maps.LatLng(50.91001479538914, -1.4043831825256348),			}		});			},});
